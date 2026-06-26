@@ -1,0 +1,13 @@
+[project]
+name = "repo-roast"
+version = "0.1.0"
+description = "A brutally honest CLI that roasts your repo like a senior engineer."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+repo-roast = "repo_roast.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
